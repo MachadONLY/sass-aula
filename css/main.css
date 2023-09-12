@@ -1,0 +1,81 @@
+.text-primary {
+  color: royalblue;
+}
+
+.text-success {
+  color: green;
+}
+
+.text-alert {
+  color: yellow;
+}
+
+.text-danger {
+  color: red;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #f2f2f2;
+  flex-direction: column;
+}
+header:hover {
+  background-color: rgb(97, 32, 7);
+}
+header h1 {
+  color: orangered;
+}
+header p {
+  color: rgb(231, 116, 63);
+}
+@media screen and (max-width: 768px) {
+  header header {
+    background-color: coral;
+  }
+}
+
+button {
+  font-size: 18px;
+  border-radius: 12px;
+  background-color: orangered;
+  color: black;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: ease 5s;
+}
+
+button:hover {
+  scale: 0.8;
+}
+
+.text-1 {
+  font-size: 8px;
+}
+
+.text-2 {
+  font-size: 16px;
+}
+
+.text-3 {
+  font-size: 24px;
+}
+
+.text-4 {
+  font-size: 32px;
+}
+
+.text-5 {
+  font-size: 40px;
+}/*# sourceMappingURL=main.css.map */
